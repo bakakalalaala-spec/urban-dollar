@@ -57,7 +57,7 @@ NewGuiPart4.Visible = false
 NewGuiPart4.ZIndex = 4
 NewGuiPart4.Font = Enum.Font.SourceSansBold
 NewGuiPart4.FontSize = Enum.FontSize.Size18
-NewGuiPart4.Text = "TOPK3K 5.0"
+NewGuiPart4.Text = "Player1"
 NewGuiPart4.TextColor3 = Color3.new(1, 1, 1)
 NewGuiPart4.TextXAlignment = Enum.TextXAlignment.Left
 NewGuiPart4.Parent = NewGuiPart3
@@ -3385,7 +3385,7 @@ topkek.navigation.buildHomePage = function()
 	local count = 0
 	for _, _ in pairs(cmd.commands.store) do count = count + 1 end
 	local hook = topkek.tools.gui:hookContainer(topkek.tools.util.getContainer('Home').Container, true)
-	hook:drawText(1, 'T0PK3K 4.0 ex-7 edition by FancyKid')
+	hook:drawText(1, 'T0PK3K 5.0 SS Edition')
 	hook:drawText(1, 'Patch version 1.0.5')
 	hook:drawText(1, 'Commandbase patch version 1.0.0')
 	hook:drawText(1, 'Number of commands: ' .. tostring(count))
